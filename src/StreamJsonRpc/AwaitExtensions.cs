@@ -17,7 +17,7 @@ namespace StreamJsonRpc
         /// Gets an awaiter that switches the caller to execute on the specified <see cref="SynchronizationContext"/>.
         /// </summary>
         /// <param name="synchronizationContext">The <see cref="SynchronizationContext"/> to switch to.</param>
-        /// <returns>The value to await on.</returns>
+        /// <returns>The value to await on...........</returns>
         internal static SynchronizationContextAwaiter GetAwaiter(this SynchronizationContext synchronizationContext)
         {
             Requires.NotNull(synchronizationContext, nameof(synchronizationContext));
